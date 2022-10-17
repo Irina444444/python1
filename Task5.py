@@ -1,0 +1,10 @@
+# find distance between two points 
+print ('Insert Ax')
+Ax = input()
+print ('Insert Ay')
+Ay = input()
+print ('Insert Bx')
+Bx = input()
+print ('Insert By')
+By = input()
+print (round(((abs (abs (int (Ax)) - abs (int (Bx)))**2 + abs ((abs (int (Ay)) - abs (int (By)))**2))**0.5), 2))
